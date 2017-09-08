@@ -1,0 +1,351 @@
+/*start global */
+body{font-family: Arial;}
+.content {
+    width: 1200px;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
+/*end global*/
+/*start navbar*/
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color:  #293252;
+    color: #fff;
+}
+.navbar .nav {
+    width: 100%;
+    height:100%;
+    margin: auto;
+    padding: 0;   
+}
+.navbar .nav .icon {
+    background: #ebeaf1;
+    width: 141px;
+    height: 138px;
+    display: inline-block;
+    margin-left: 130px;
+}
+.navbar .nav .icon img {
+    padding-left: 39px;
+    padding-top: 10px;
+    width: 65px;
+    height: 68px;
+}
+.navbar .nav .icon p {
+    color: #000;
+    font: 18px/1.5 Arial, Tahoma;
+    margin: 0;
+    text-align: center
+}
+.navbar .nav ul {
+    float: right;
+    list-style: none;
+    line-height: 75px;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+}
+.navbar .nav ul li {
+    float: left;
+    padding-right:27px ;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+.navbar .nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .nav ul li a:hover {
+    color: aqua;
+    -moz-transition-duration: 0.45s;
+    -webkit-transition-duration: 0.45s;
+    -o-transition-duration: 0.45s;
+    transition-duration: 0.45s;
+}
+.header{
+    width: 100%;
+    height: 900px;
+    background: url(../fonts/childern.jpg);
+    background-size: cover;
+}
+.header h2 {
+    margin: 0 398px;
+    padding: 0;
+    font-family: monospace;
+    font-style: italic;
+    line-height: 300px;
+    width: 405px;
+    height: 221px;
+    font-size: 35px;
+    color: #293252;
+}
+.header p {
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+    font-family: Tahoma;
+    color: #222;
+    margin: auto;
+}
+.header button {
+    margin-top: 30px;
+    margin-left: 500px;
+    background: content-box;
+    border: 5px solid #167d09;
+    padding: 20px;
+    width: 180px;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+    color: #1ead0c;
+    font-size: 30px;
+    font-family: cursive;
+}
+.header button:hover {
+    margin-top: 30px;
+    margin-left: 500px;
+    background: content-box;
+    border: 5px solid #16295f;
+    padding: 20px;
+    width: 180px;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+    color: #05657b;
+    font-size: 30px;
+    font-family: cursive;
+}
+/*start welcome*/
+.welcome {
+    display: inline-flex;
+    width: 80%;
+    height: 650px;
+    position: relative;
+    top: -120px;
+    right: -100px;
+}       
+
+.welcome .about {
+    width: 50%;
+    text-align: center;
+    background: #f5f0f0
+}
+.welcome .about img {
+    padding-top: 28px;
+    
+}
+.welcome .about h2 {
+    margin-top: 35px;
+}
+.welcome .about p {
+    width: 60%;
+    margin-left: 94px;
+    padding-bottom: 15px;
+}
+.welcome .about a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #c5b868
+}
+
+.welcome .event {
+    width: 50%;
+    background: #343F64;
+    
+}
+.welcome .event .content-event {
+    margin-left: 30px
+}
+.welcome .event .first,
+.welcome .event .second {
+    display: inline;
+}
+.welcome .event .first h2 {
+   font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Arial;
+    text-align: center;
+    color: #fff; 
+    margin-right: 20px;
+    padding-top:  5px
+    
+}
+.welcome .event .first p:first-of-type{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 75px;
+    
+}
+.welcome .event .first p:nth-of-type(3) {
+    padding: 30px 0;
+}
+.welcome .event .register {
+    padding: 8px;
+    background: #E9DB89;
+    border: 0;
+}
+.welcome .event .second p:first-of-type {
+        font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 50px;
+}
+.welcome .event .second p:nth-of-type(3) {
+    padding: 30px 0;
+}
+/*end welcome*/
+/*start news*/
+
+.news {
+    width: 95%;
+    height: auto;
+    margin-left: 5%
+}
+.news .display {
+    display: flex;
+    margin-left: 65px;
+}
+.news h2 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+.news .first-new {
+    width: 50%;
+    
+}
+.news .first-new .section1 {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.2);
+}
+.news .first-new .section1 .container {
+    margin: auto;
+    width: 500px
+}
+.news .first-new .register{
+    padding: 5.5px 25px;
+    background: #E9DB89;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #343F64;
+    text-transform: capitalize;
+    
+}
+.news .first-new h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-top: 25px;
+    color: #293252;
+}
+.news .first-new p {
+        color: #343F64;
+}
+.sec-new {
+    text-align: center;
+    height: 65%;
+    margin-left: 30px;
+    width: 30%;
+    
+}
+.sec-new .section3 {
+    margin: 10px;
+    height: 320px;
+    width: 330px;
+    background: #E9DB89;
+    margin: 15px
+} 
+
+.sec-new .section3 h2 {
+    padding-top: 40px;
+    text-transform: capitalize;
+    color: #293252;
+}
+.sec-new .section3 p {
+   padding-bottom: 15px;
+    margin: 20px 30px;
+    color: #343F64;
+}
+.sec-new .section3 input {
+    padding: 8px 35px;
+    margin-bottom: 5px;
+}
+.sec-new .section3 button {
+    background: #293252;
+    padding: 8px 83px;
+    border: 0;
+    color: #fff
+}
+
+
+
+
+.sec-new .section4 {
+    background: #ddd;
+    margin: 10px;
+    height: 320px;
+    width: 330px;
+}
+.sec-new .section4 h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-top: 40px;
+    margin: 0px 40px;
+    color: #293252;
+}
+.sec-new .section4 p {
+    margin: 30px;
+    font-size: 15px;
+    color: #343F64;
+}
+.sec-new .section4 a {
+    text-transform: capitalize;
+    color: #e6a220
+}
+/*end news*/
+/*start footer */
+.footer {
+    background: #293252;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+
+}
+.footer .float {
+    display: inline-flex;
+}
+.footer .float .paragrph {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+.footer .float .paragrph h2{
+    color:#fff;
+}
+.footer .float .paragrph p {
+    color: #fff;
+}
+.footer hr:first-of-type {
+    transform: rotate(90deg) translateZ(0px);
+    width: 2%;
+    position: absolute;
+    left: 516px;
+    top: 56px;
+}
+.footer hr:nth-of-type(2) {
+    transform: rotate(90deg) translateZ(0px);
+    width: 2%;
+    position: absolute;
+    left: 765px;
+    top: 56px;
+}
